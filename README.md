@@ -7,4 +7,4 @@ This simple (though vaguely) useful Vaadin 14 application displays a grid and so
 
 It serves as a convenient starting point for creating examples and doing tests.
 
-![Alt text](screenshot.png?raw=true "Example of the Application")
+![Alt text](js-callback-invoke/screenshot.png?raw=true "Example of the Application")
