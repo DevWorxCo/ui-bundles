@@ -1,4 +1,7 @@
 # ui-bundles
+
+![Build](https://github.com/DevWorxCo/ui-bundles/workflows/Build/badge.svg)
+
 This repository contains a number of UI components, reference implementations and other libraries that I find useful during the course of my regular consultancy and development engagements.
 
 # js-callback-invoke
