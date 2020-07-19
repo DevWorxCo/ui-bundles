@@ -16,7 +16,7 @@
 
     <properties>
         <failOnMissingWebXml>false</failOnMissingWebXml>
-        <vaadin.version>14.1.23</vaadin.version>
+        <vaadin.version>14.3.1</vaadin.version>
         <drivers.downloader.phase>pre-integration-test</drivers.downloader.phase>
     </properties>
 
@@ -122,7 +122,7 @@
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
                 <artifactId>jetty-maven-plugin</artifactId>
-                <version>9.4.19.v20190610</version>
+                <version>9.4.30.v20200611</version>
                 <configuration>
                     <!-- If using IntelliJ IDEA with autocompilation, this
                     might cause lots of unnecessary compilations in the
