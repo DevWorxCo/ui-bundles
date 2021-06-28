@@ -16,7 +16,7 @@
 
     <properties>
         <failOnMissingWebXml>false</failOnMissingWebXml>
-        <vaadin.version>14.5.3</vaadin.version>
+        <vaadin.version>14.6.2</vaadin.version>
         <drivers.downloader.phase>pre-integration-test</drivers.downloader.phase>
     </properties>
 
