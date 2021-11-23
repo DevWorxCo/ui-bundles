@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Top",
+    "children": [
+      {
+        "name": "Middle",
+        "value": 10
+      },
+      {
+        "name": "Middle2",
+        "value": 19
+      }
+    ]
+  }
+]

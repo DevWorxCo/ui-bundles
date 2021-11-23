@@ -1,5 +1,6 @@
 /.project
 /.settings/
+/target/
 .idea
 *.iml
 /js-callback-invoke/node/

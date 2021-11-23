@@ -35,6 +35,7 @@
   
     <modules>
    		<module>js-callback-invoke</module>
+		<module>echarts-sunburst</module>
     </modules>
 
 	<profiles>
@@ -140,8 +141,7 @@
                 <version>2.13.2</version>
             </dependency>
             
- 
-              
+
 			<dependency>
   				  <groupId>org.mockito</groupId>
     				<artifactId>mockito-core</artifactId>
