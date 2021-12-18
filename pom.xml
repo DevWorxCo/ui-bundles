@@ -21,15 +21,19 @@
 		<maven.failsafe.plugin.version>2.22.0</maven.failsafe.plugin.version>
 
 		<junit.jupiter.version>5.6.2</junit.jupiter.version>
-		
-	    	<tomcat.version>9.0.46</tomcat.version>
+
+		<log4j.version>2.17.0</log4j.version>
+
+		<h2database.version>2.0.202</h2database.version>
+
+		<tomcat.version>9.0.46</tomcat.version>
     	
-	    	<maven.compiler.initial.memory>1024M</maven.compiler.initial.memory>
-	        <maven.compiler.max.memory>2048M</maven.compiler.max.memory>
+	    <maven.compiler.initial.memory>1024M</maven.compiler.initial.memory>
+	    <maven.compiler.max.memory>2048M</maven.compiler.max.memory>
     	
-	    	<maven.fork.test.memory>-Xmx2048M</maven.fork.test.memory>
-	    	<maven.fork.count>1</maven.fork.count> <!--  If we run the datastore tests in parallel, we have some issues -->
-	    	<maven.fork.reuse>false</maven.fork.reuse> 
+	    <maven.fork.test.memory>-Xmx2048M</maven.fork.test.memory>
+	    <maven.fork.count>1</maven.fork.count> <!--  If we run the datastore tests in parallel, we have some issues -->
+	    <maven.fork.reuse>false</maven.fork.reuse>
 		
 	</properties>
   
@@ -126,19 +130,19 @@
             <dependency>
 			    <groupId>com.h2database</groupId>
 			    <artifactId>h2</artifactId>
-			    <version>1.4.200</version>
+			    <version>${h2database.version}</version>
 			</dependency>
             
             <dependency>
                 <groupId>org.apache.logging.log4j</groupId>
                 <artifactId>log4j-api</artifactId>
-                <version>2.16.0</version>
+                <version>${log4j.version}</version>
             </dependency>
             
             <dependency>
                 <groupId>org.apache.logging.log4j</groupId>
                 <artifactId>log4j-core</artifactId>
-                <version>2.16.0</version>
+                <version>${log4j.version}</version>
             </dependency>
             
 
