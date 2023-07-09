@@ -24,7 +24,7 @@
 
 		<log4j.version>2.17.1</log4j.version>
 
-		<h2database.version>2.1.210</h2database.version>
+		<h2database.version>2.2.220</h2database.version>
 
 		<tomcat.version>9.0.56</tomcat.version>
     	
@@ -53,8 +53,11 @@
 				    <artifactId>maven-dependency-plugin</artifactId>
 				    <version>${maven.dependency.plugin.version}</version>
 				</plugin>
-		            
-                <plugin>
+
+
+
+
+				<plugin>
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.8.1</version>
@@ -82,6 +85,12 @@
         </pluginManagement>
 
         <plugins>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>3.4.0</version>
+			</plugin>
         
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
